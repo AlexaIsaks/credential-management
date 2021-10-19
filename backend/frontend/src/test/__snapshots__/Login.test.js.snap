@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login component renders correctly 1`] = `
+<main
+  className="pt-4 pt-md-5 min-vh-100 container"
+>
+  <div
+    className="row py-5"
+  >
+    <div
+      className="col-10 col-md-6 col-lg-4 offset-1 offset-md-3 offset-lg-4 py-4 px-3 border"
+    >
+      <h1
+        className="h5 text-center"
+      >
+        Credential Management
+      </h1>
+      <h2
+        className="mb-5 h5 text-center"
+      >
+        Login
+      </h2>
+      <form
+        className="form"
+        onSubmit={[Function]}
+      >
+        <div
+          className="mb-3"
+        >
+          <label
+            htmlFor="login-username"
+          >
+            Username
+          </label>
+          <input
+            className="form-control"
+            id="login-username"
+            name="username"
+            onChange={[Function]}
+            required={true}
+            type="text"
+          />
+        </div>
+        <div>
+          <label
+            htmlFor="login-password"
+          >
+            Password
+          </label>
+          <input
+            autoComplete="off"
+            className="form-control"
+            id="login-password"
+            name="password"
+            onChange={[Function]}
+            required={true}
+            type="password"
+            value=""
+          />
+        </div>
+        <button
+          className="mt-3 btn btn-outline-secondary w-100"
+          type="submit"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+  </div>
+</main>
+`;

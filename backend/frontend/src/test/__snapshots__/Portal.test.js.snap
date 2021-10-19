@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Portal component renders correctly 1`] = `
+<main
+  className="pt-5"
+>
+  <div
+    className="pt-4 pt-md-5 container-sm"
+  >
+    <div
+      className="row"
+    >
+      <aside
+        className="col-12 col-md-3 col-lg-2 h-100 "
+      >
+        <ul
+          className="p-0 d-flex flex-wrap flex-md-column justify-content-start align-items-start list-unstyled"
+        >
+          <li
+            className="mb-1 me-1 mb-md-3 me-md-0 btn btn-sm btn-outline-secondary"
+            data-modal="view-credentials"
+            onClick={[Function]}
+          >
+            View Single Repository
+          </li>
+          <li
+            className="mb-1 me-1 mb-md-3 me-md-0 btn btn-sm btn-outline-secondary"
+            data-modal="add-credentials"
+            onClick={[Function]}
+          >
+            Add Credentials
+          </li>
+        </ul>
+      </aside>
+      <div
+        className="col-12 col-md-9 col-lg-10 p-3 bg-light"
+      >
+        <div
+          className="custom-modal d-none"
+        >
+          <div
+            className="mx-auto position-relative bg-white custom-modal__dialog"
+          >
+            <button
+              className="btn btn-sm position-absolute top-0 end-0 p-2"
+              type="button"
+            >
+              <span
+                className="fs-3 text-secondary"
+                onClick={[Function]}
+              >
+                <ion-icon
+                  name="close-outline"
+                />
+              </span>
+            </button>
+          </div>
+        </div>
+        <p
+          className="text-center"
+        >
+          <span
+            className="d-flex justify-content-center align-items-center fs-3 fw-bold text-primary"
+          >
+            <ion-icon
+              name="ellipsis-horizontal-outline"
+            />
+          </span>
+          <span
+            data-testid="credentials-loading"
+          >
+            Credentials loading...
+          </span>
+        </p>
+      </div>
+    </div>
+  </div>
+</main>
+`;

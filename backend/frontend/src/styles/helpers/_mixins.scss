@@ -1,0 +1,6 @@
+//Media queries and breakpoints
+@mixin media-query($breakpoint) {
+  @media only screen and (map-get($breakpoints, $breakpoint)) {
+    @content;
+  }
+}

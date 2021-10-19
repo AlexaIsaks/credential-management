@@ -1,0 +1,38 @@
+// Cool Tech Colours
+$white: #ffffff;
+$blue: #118ab2;
+$orange: #ee6c4d;
+
+// Text colours
+.text-alpha {
+  color: $blue;
+}
+
+.text-beta {
+  color: $orange;
+}
+
+// Background colours
+.bg-beta {
+  background-color: $orange;
+}
+
+// Border colours
+.border-beta {
+  border: 1px solid $orange;
+}
+
+//Media queries and breakpoints
+// Bootstrap 5 Breakpoints
+$breakpoints: ( 
+  //Extra small devices: phones
+  "extra-small": "max-width: 575.99px",
+  //Small devices: landscape phones
+  "small": "min-width: 576px",
+  //Medium devices: tablets
+  "medium": "min-width: 768px",
+  //Large devices: desktops, laptops
+  "large": "max-width: 992px",
+  //Extra large devices: large  desktops,
+  "extra-large": "max-width: 1200px"
+);
