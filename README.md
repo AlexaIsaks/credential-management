@@ -25,6 +25,8 @@ User roles include:
 |management|Read credential repository. Add new credentials. Update existing credentials.|
 |admin| Read credential repository. Add new credentials. Update existing credentials. Change user roles. Assign and remove users to/from divisions and organisational units|
 
+**NOTE: The connection string has been removed from the config file. Therefore a connection to the database cannot be made.**
+
 Below are three example users that are currently stored in the database. Feel free to use the login credentials. Each user has a different user role. 
 |Name|Username|Password|User Role|
 |----|--------|--------|---------|
