@@ -24,13 +24,13 @@ See root folder's **README.md**.
 
  * User login.
 
- <p align="center"><img alt="login" src="./readme-images/login.jpg" width="600"></p>
+ <p align="center"><img alt="login" src="./readme-images/login.png" width="600"></p>
 
  * User registration. 
-  <p align="center"><img alt="registration" src="./readme-images/registration.jpg" width="600"></p>
+  <p align="center"><img alt="registration" src="./readme-images/registration.png" width="600"></p>
 
  * Portal
-  <p align="center"><img alt="portal" src="./readme-images/portal.jpg" width="700"></p>
+  <p align="center"><img alt="portal" src="./readme-images/portal.png" width="700"></p>
 
  1. View a single division's credential repository.
  2. Add new credentials.
